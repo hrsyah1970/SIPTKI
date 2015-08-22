@@ -1,0 +1,4 @@
+INPUT += /usr/src/easycall/releases/SIPtki/submodules/externals/libvpx/vpx/vp8.h /usr/src/easycall/releases/SIPtki/submodules/externals/libvpx/vpx/vp8cx.h /usr/src/easycall/releases/SIPtki/submodules/externals/libvpx/vpx/vp8dx.h /usr/src/easycall/releases/SIPtki/submodules/externals/libvpx/vpx/vpx_codec.h /usr/src/easycall/releases/SIPtki/submodules/externals/libvpx/vpx/vpx_decoder.h /usr/src/easycall/releases/SIPtki/submodules/externals/libvpx/vpx/vpx_encoder.h /usr/src/easycall/releases/SIPtki/submodules/externals/libvpx/vpx/vpx_image.h
+PREDEFINED = VPX_CODEC_DISABLE_COMPAT
+INCLUDE_PATH += .
+ENABLED_SECTIONS += decoder encoder vp8 vp8_decoder vp8_encoder

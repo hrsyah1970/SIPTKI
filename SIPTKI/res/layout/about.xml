@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+   
+	<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Menu Bantuan"
+		android:textStyle="bold"
+	    android:layout_weight="1" 
+	    android:textColor="@android:color/black" />
+	<View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+	android:layout_marginTop="1dp"
+        android:background="@android:color/black" />
+
+
+      <LinearLayout
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+   	  android:layout_weight="1" 
+  	  android:orientation="horizontal">
+
+       <Button
+            android:id="@+id/telponbnp2tkifree"
+            android:text="Telpon BNP2TKI  Gratis"
+            android:textColor="@android:color/black"
+		android:textStyle="bold"
+        	android:textSize="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+	    android:layout_weight="1" 
+            android:drawableBottom="@drawable/bnp2tki_ri"/>
+	<Button 
+	        android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="Telpon Kedutaan Gratis"
+		android:textStyle="bold"
+        	android:textSize="10dp"
+		android:layout_weight="1" 
+		android:textColor="@android:color/black"
+                android:drawableBottom="@drawable/kedutaan_ri"
+		android:id="@+id/telponkedutaanfree"/>
+	<Button 
+	        android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="Telpon   Polisi Gratis"
+		android:textStyle="bold"
+        	android:textSize="10dp"
+		android:layout_weight="1" 
+		android:textColor="@android:color/black"
+                android:drawableBottom="@drawable/polisi_ri"
+		android:id="@+id/telponpolisifree"/>
+
+	</LinearLayout>
+
+
+	<!--Button 
+	        android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="SMS Bantuan"
+		android:textStyle="bold"
+		android:layout_weight="1" 
+        	android:textSize="10dp"
+		android:textColor="@android:color/white"
+		android:id="@+id/smsbantuan"/-->
+ 
+
+
+    <!--ImageView
+        android:contentDescription="@string/content_description_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	android:layout_gravity="center"
+        android:src="@drawable/logo_linphone_57x57" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/text_default"
+        android:textSize="30dp"
+	android:layout_gravity="center"
+        android:textStyle="bold" />
+    
+	<TextView 
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="@string/about_text"
+		android:autoLink="web" 
+		android:paddingTop="10sp"
+		android:textStyle="bold" 
+		android:textColor="@android:color/white"
+		android:layout_gravity="center"
+		android:id="@+id/AboutText"/-->
+
+      <!--LinearLayout
+	  android:layout_width="match_parent"
+	  android:layout_height="12dp"
+  	  android:orientation="vertical"-->
+	<View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+	android:layout_marginTop="1dp"
+        android:background="@android:color/black" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tools"
+		android:textStyle="bold"
+		android:layout_weight="1" 
+	    android:textColor="@android:color/black" />
+    
+	<!--View
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+	android:layout_marginTop="1dp"
+        android:background="@android:color/wh" /-->
+	
+	<Button 
+	        android:layout_width="100dp"
+		android:layout_height="50dp" 
+		android:text="Peta ke Kedutaan"
+		android:textStyle="bold"
+		android:layout_weight="1" 
+        	android:textSize="10dp"
+		android:textColor="@android:color/black"
+		android:id="@+id/kedutaan"/>
+
+	<Button 
+	        android:layout_width="100dp"
+		android:layout_height="50dp" 
+		android:text="Catat Lokasi Saat Ini"
+		android:textStyle="bold"
+		android:layout_weight="1" 
+        	android:textSize="10dp"
+		android:textColor="@android:color/black"
+		android:id="@+id/lihatlokasi"/>
+	<!--Button 
+	        android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="ForwardCall"
+		android:textStyle="bold"
+		android:layout_weight="1" 
+        	android:textSize="10dp"
+		android:textColor="@android:color/white"
+		android:id="@+id/forwardcall"/-->
+	<Button 
+	        android:layout_width="100dp"
+		android:layout_height="50dp" 
+		android:text="Transfer Uang"
+		android:textStyle="bold"
+        	android:textSize="10dp"
+		android:textColor="@android:color/black"
+		android:id="@+id/transferuang"/>
+			
+	<Button 
+	        android:layout_width="100dp"
+		android:layout_height="50dp" 
+		android:text="Tambah Saldo"
+		android:textStyle="bold"
+		android:layout_weight="1" 
+        	android:textSize="10dp"
+		android:textColor="@android:color/black"
+		android:id="@+id/tambahsaldo"/>
+      <LinearLayout
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+   	  android:layout_weight="1" 
+  	  android:orientation="horizontal">
+
+	<Button 
+	        android:layout_width="100dp"
+		android:layout_height="50dp" 
+		android:text="Cek Saldo"
+		android:textStyle="bold"
+        	android:textSize="10dp"
+		android:textColor="@android:color/black"
+		android:id="@+id/checksaldo"/>
+        <TextView
+            	android:id="@+id/saldoo"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+            	android:textColor="@android:color/black"
+		android:text="0"
+       	        android:src="@drawable/tki_saldo" />
+
+	</LinearLayout>
+        
+
+	<!--Button 
+	        android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="Telpon Kedutaan via SLI berbayar"
+		android:textStyle="bold"
+        	android:textSize="10dp"
+		android:layout_weight="1" 
+		android:textColor="@android:color/white"
+		android:id="@+id/telponkedutaan"/>
+	<Button 
+	        android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="Telpon Kepolisian RI JKT via SLI berbayar"
+		android:textStyle="bold"
+        	android:textSize="10dp"
+		android:layout_weight="1" 
+		android:textColor="@android:color/white"
+		android:id="@+id/telponpolisi"/>
+	<Button 
+	        android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="Telpon bnp2tki JKT via SLI berbayar"
+		android:textStyle="bold"
+        	android:textSize="10dp"
+		android:layout_weight="1" 
+		android:textColor="@android:color/white"
+		android:id="@+id/telponbnp2tki"/>
+	<Button 
+	        android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="Telpon Kedutaan via internet gratis"
+		android:textStyle="bold"
+        	android:textSize="10dp"
+		android:layout_weight="1" 
+		android:textColor="@android:color/white"
+		android:id="@+id/telponkedutaanfree"/>
+	<Button 
+	        android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="Telpon Kepolisian RI JKT via internet gratis"
+		android:textStyle="bold"
+        	android:textSize="10dp"
+		android:layout_weight="1" 
+		android:textColor="@android:color/white"
+		android:id="@+id/telponpolisifree"/>
+	<Button 
+	        android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:text="Telpon bnp2tki JKT via internet gratis"
+		android:textStyle="bold"
+        	android:textSize="10dp"
+		android:layout_weight="1" 
+		android:textColor="@android:color/white"
+		android:id="@+id/telponbnp2tkifree"/-->
+	<!--/LinearLayout-->
+
+	<!--Button android:id="@+id/exit"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Keluar Aplikasi"
+		android:visibility="visible"
+		android:gravity="center"
+		android:layout_marginTop="30sp"/-->
+    
+</LinearLayout>

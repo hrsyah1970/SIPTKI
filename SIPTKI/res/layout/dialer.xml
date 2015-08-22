@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  	android:background="@color/white"
+    android:orientation="vertical">
+  
+<!--LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.2"
+        android:orientation="horizontal">
+ 
+    <org.linphone.ui.AddressText
+        android:id="@+id/Adress"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.8"
+        android:textColor="@android:color/white"
+        android:background="@drawable/dialer_address_background"
+        android:inputType="textEmailAddress"
+        android:hint="@string/addressHint"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+       	android:layout_gravity="center" />
+
+ </LinearLayout-->
+    <!--LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	android:background="@color/white"
+        android:layout_weight="0.1"
+        >
+	
+        <TextView
+            	android:id="@+id/gcm_chat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            	android:hint="berita-berita klik disini"
+            	android:singleLine="true"
+            	android:textColor="@android:color/black"
+            	android:background="@color/white" 
+		android:textSize="10dp"
+		android:textStyle="bold"
+       	 	android:layout_gravity="center" 
+		android:ellipsize="marquee"
+		android:focusable="false"
+		android:paddingLeft="10dp"
+		android:marqueeRepeatLimit="marquee_forever"
+		android:scrollHorizontally="true"/>
+	</LinearLayout-->
+  
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:orientation="horizontal"
+    	    android:background="@color/blue">
+
+        <!--org.linphone.ui.HelpButton
+            android:id="@+id/Help"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/help"
+    	    android:scaleType="centerInside"
+    	    android:padding="5px"
+	    android:layout_marginTop="10dp"
+     	    android:layout_alignParentRight="true"/-->
+        <!--TextView
+            	android:id="@+id/saldoo"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+	    	android:layout_marginTop="15dp"
+            	android:hint="Saldo"
+            	android:textColor="@android:color/white"
+       	        android:src="@drawable/tki_saldo" /-->
+		
+	<ImageView
+                android:id="@+id/bnptki"
+    		android:layout_width="50dp"
+    		android:layout_height="50dp"
+    		android:src="@drawable/bnp2tki"
+    		android:scaleType="centerInside"
+    		android:padding="10px"
+	    	android:layout_marginTop="10dp"
+    		android:layout_alignParentRight="true"/>
+	<ImageView 
+                android:id="@+id/telakses"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:src="@drawable/telakses"
+    android:scaleType="centerInside"
+    android:padding="10px"
+	    android:layout_marginTop="10dp"
+    android:layout_alignParentRight="true"/>
+	<!--ImageView 
+                android:id="@+id/esia"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:src="@drawable/esia"
+    android:scaleType="centerInside"
+    android:padding="10px"
+	    android:layout_marginTop="10dp"
+    android:layout_alignParentRight="true"/-->
+	<ImageView
+    android:id="@+id/Wazzapp"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:src="@drawable/whatsapp"
+    android:scaleType="centerInside"
+    android:padding="20px"
+	    android:layout_marginTop="10dp"
+    android:layout_alignParentRight="true"/>
+	<ImageView
+    android:id="@+id/facebook"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:src="@drawable/facebook"
+    android:scaleType="centerInside"
+    android:padding="20px"
+	    android:layout_marginTop="10dp"
+    android:layout_alignParentRight="true"/>
+	<ImageView
+    android:id="@+id/twitter"
+    android:layout_width="50dp"
+    android:layout_height="50dp"
+    android:src="@drawable/twitter"
+    android:scaleType="centerInside"
+    android:padding="20px"
+	    android:layout_marginTop="10dp"
+    android:layout_alignParentRight="true"/>
+
+  </LinearLayout>
+    <!--LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	android:background="@android:color/black"
+        android:layout_weight="0.1"
+        android:orientation="horizontal">
+        
+ 	<TextView
+            	android:id="@+id/saldoo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+            	android:hint="Saldo"
+		android:height="12dp"
+		android:width="12dp"
+		android:textSize="10dp"
+            	android:textColor="@android:color/white"
+        	android:layout_weight="0.3"
+       	        android:src="@drawable/tki_saldo" /-->
+
+    <!--LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1" >
+
+       <Button
+            android:id="@+id/panicbutton"
+            android:text="PANIC BUTTON"
+            android:textColor="@android:color/black"
+		android:textStyle="bold"
+        	android:textSize="10dp"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+	    	android:adjustViewBounds="true"
+       	 	android:layout_gravity="center" 
+            	android:drawableBottom="@drawable/panic"/>
+	</LinearLayout-->
+
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.1">
+ 
+    <org.linphone.ui.AddressText
+        android:id="@+id/Adress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:textColor="@android:color/black"
+        	android:textSize="8dp"
+        android:inputType="textEmailAddress"
+            android:layout_weight="0.8"/>
+        
+	<org.linphone.ui.EraseButton
+            android:id="@+id/Erase"
+	    	android:adjustViewBounds="true"
+	    android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.2"
+            android:src="@drawable/backspace" />
+        <!--ImageView
+            android:contentDescription="@string/content_description_add_contact"
+            android:id="@+id/addContact"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"
+            android:src="@drawable/tki_addcontact" /-->
+
+<!--LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5">
+        <TextView
+            	android:textCursorDrawable="@null"
+            	android:id="@+id/saldoo"
+            	android:layout_width="100dp"
+            	android:layout_height="50dp"
+            	android:hint="Cek Saldo"
+            	android:singleLine="true"
+            	android:textColor="@android:color/black"
+            	android:background="@android:color/transparent" 
+		android:textSize="10dp"
+    		android:scaleType="centerInside"
+    		android:padding="20px"
+    		android:layout_alignParentRight="true"/-->
+	
+</LinearLayout>
+	<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.7">
+ 
+	
+    	<org.linphone.ui.Numpad 
+	    	android:id="@+id/Dialer"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	/>
+    </LinearLayout>
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0.1" >
+        <ImageView
+            android:contentDescription="@string/content_description_add_contact"
+            android:id="@+id/addContact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+	    android:layout_marginTop="30dp"
+            android:src="@drawable/add_contact" />
+        
+        <org.linphone.ui.CallButton
+            android:id="@+id/Call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+	    android:adjustViewBounds="true"
+	    android:layout_marginBottom="20dp"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:src="@drawable/call" />
+        
+        <!--org.linphone.ui.EraseButton
+            android:id="@+id/Erase"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/backspace" /-->
+        <ImageView
+            android:id="@+id/panicbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+	    android:layout_marginTop="30dp"
+            android:src="@drawable/panic" />
+        
+    </LinearLayout>
+
+
+	
+</LinearLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:textColor="@android:color/black"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout 
+android:id="@+id/LinearLayout01" 
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:layout_width="fill_parent">
+
+<Button 
+android:layout_height="wrap_content" 
+android:id="@+id/btn_start" 
+android:text="Start" 
+    android:color="@android:color/black" 
+android:layout_weight="1"
+android:layout_width="wrap_content"/>
+
+<Button 
+android:layout_height="wrap_content" 
+android:id="@+id/btn_stop" 
+android:text="Stop" 
+    android:color="@android:color/black" 
+android:layout_weight="1"
+android:layout_width="wrap_content"/>
+<Button 
+android:layout_height="wrap_content" 
+android:layout_width="wrap_content" 
+android:text="Alamat" 
+    android:color="@android:color/black" 
+android:layout_weight="1"
+android:id="@+id/btn_geocode"/>
+<Button 
+android:layout_height="wrap_content" 
+    android:color="@android:color/black" 
+android:layout_width="wrap_content" 
+android:layout_weight="1"
+android:text="Peta" 
+android:id="@+id/btn_peta"/>
+<Button 
+android:layout_height="wrap_content" 
+android:layout_width="wrap_content" 
+    android:color="@android:color/black" 
+android:text="Simpan" 
+android:layout_weight="1"
+android:id="@+id/btn_save"/>
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:color="@android:color/black" 
+   android:text="Latitude:"/>
+
+<EditText 
+android:layout_height="wrap_content" 
+android:layout_width="fill_parent" 
+    android:color="@android:color/black" 
+android:id="@+id/txt_lat"/>
+
+<TextView 
+android:id="@+id/TextView01" 
+    android:color="@android:color/black" 
+android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Longitude:"/>
+
+<EditText 
+android:layout_height="wrap_content" 
+    android:color="@android:color/black" 
+android:layout_width="fill_parent" 
+android:id="@+id/txt_lng"/>
+
+
+</LinearLayout>
+
+<LinearLayout 
+android:layout_height="wrap_content"
+android:orientation="vertical"
+android:layout_width="fill_parent">
+ <EditText 
+	android:id="@+id/keterangan" 
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content"/>
+<TextView 
+	android:id="@+id/txt_out" 
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content"/>
+        
+<org.linphone.TouchImageView 
+            android:contentDescription="Peta"
+            android:id="@+id/picImage"
+            android:src="@drawable/tki_posisi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
+
+</LinearLayout>

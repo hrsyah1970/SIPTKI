@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    xmlns:tools="http://schemas.android.com/tools"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:textColor="@android:color/black"
+	    android:background="@drawable/background"
+	    tools:context=".voucher" >
+	 
+	    <EditText
+	        android:layout_width="fill_parent"
+	        android:layout_height="50dp"
+	        android:id="@+id/editPhone"
+	        android:maxLength="20"
+		android:textColor="@android:color/black"
+	        android:clickable="true"
+		android:inputType="number"
+	        android:hint="Nomor Voucher" />
+	    <Button 
+		android:layout_height="wrap_content" 
+		android:id="@+id/display" 
+		android:text="Klik" 
+		android:layout_width="wrap_content"/>
+	     
+	</LinearLayout>
